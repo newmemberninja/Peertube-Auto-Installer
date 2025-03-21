@@ -25,9 +25,6 @@ echo "##### Installing on an operating Peertube server will wipe data.   #####"
 echo "#####                                                              #####"
 echo "########################################################################"
 
-# Pause the script for 3 seconds to allow the user to read the warning
-sleep 3
-
 # Function to generate a random character
 function random_char() {
   local chars="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
