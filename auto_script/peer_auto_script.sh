@@ -205,7 +205,7 @@ cat <<docker_content >>${work_dir}/docker-compose.yml
 version: "3.3"
 services:
   peertube:
-    image: chocobozzz/peertube:production-bullseye
+    image: chocobozzz/peertube:production-bookworm
     env_file:
       - .env
     ports:
